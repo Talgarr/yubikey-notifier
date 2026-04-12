@@ -1,4 +1,4 @@
-module github.com/talgarr/yubikey-notifier-v2
+module github.com/talgarr/yubikey-notifier
 
 go 1.24.0
 

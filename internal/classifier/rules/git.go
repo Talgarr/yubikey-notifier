@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/talgarr/yubikey-notifier-v2/internal/classifier"
+	"github.com/talgarr/yubikey-notifier/internal/classifier"
 )
 
 // Git matches git operations that require a YubiKey touch:

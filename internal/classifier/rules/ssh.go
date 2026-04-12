@@ -3,7 +3,7 @@ package rules
 import (
 	"strings"
 
-	"github.com/talgarr/yubikey-notifier-v2/internal/classifier"
+	"github.com/talgarr/yubikey-notifier/internal/classifier"
 )
 
 // SSH matches FIDO2 SSH authentication (ssh-sk-helper in tree) and

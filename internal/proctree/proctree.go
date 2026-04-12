@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	clsf "github.com/talgarr/yubikey-notifier-v2/internal/classifier"
+	clsf "github.com/talgarr/yubikey-notifier/internal/classifier"
 )
 
 // Walk walks /proc upward from pid and returns a slice of Process nodes,

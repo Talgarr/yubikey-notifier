@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/talgarr/yubikey-notifier-v2/internal/classifier"
+	"github.com/talgarr/yubikey-notifier/internal/classifier"
 )
 
 // Pass matches password-store (https://www.passwordstore.org/) operations.

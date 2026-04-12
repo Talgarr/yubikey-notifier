@@ -1,7 +1,7 @@
 // Package rules contains one Rule implementation per supported tool.
 package rules
 
-import "github.com/talgarr/yubikey-notifier-v2/internal/classifier"
+import "github.com/talgarr/yubikey-notifier/internal/classifier"
 
 // All returns every registered rule.
 // Classify picks the one with the highest Depth, so ordering here only

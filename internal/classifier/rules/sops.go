@@ -3,7 +3,7 @@ package rules
 import (
 	"strings"
 
-	"github.com/talgarr/yubikey-notifier-v2/internal/classifier"
+	"github.com/talgarr/yubikey-notifier/internal/classifier"
 )
 
 // SOPS matches Mozilla SOPS secret file operations.

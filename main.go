@@ -14,10 +14,10 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	clsf "github.com/talgarr/yubikey-notifier-v2/internal/classifier"
-	"github.com/talgarr/yubikey-notifier-v2/internal/classifier/rules"
-	"github.com/talgarr/yubikey-notifier-v2/internal/notifier"
-	"github.com/talgarr/yubikey-notifier-v2/internal/proctree"
+	clsf "github.com/talgarr/yubikey-notifier/internal/classifier"
+	"github.com/talgarr/yubikey-notifier/internal/classifier/rules"
+	"github.com/talgarr/yubikey-notifier/internal/notifier"
+	"github.com/talgarr/yubikey-notifier/internal/proctree"
 )
 
 const (
