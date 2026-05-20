@@ -132,6 +132,8 @@ func buildBody(allRules []clsf.Rule, pid uint32) string {
 		return fmt.Sprintf("pid %d (process gone)", pid)
 	}
 
+	log.Debug().Str("tree", proctree.Format(tree)).Msg("process tree")
+
 	c, ok := clsf.Classify(allRules, tree)
 	if ok {
 		body := c.Tool
